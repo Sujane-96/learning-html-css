@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    justify-content: space-around; /* only for rows ,with display flex*/
+    color: rgb(10, 6, 248);
+}
+body{
+    background-color: aquamarine;
+}
+.hero{
+    display: flex;
+    justify-content:space-evenly; /*space between, space around, start, end ,center space evenly*/
+    align-items: center; /*only for column with display flex*/
+    background-color: antiquewhite;
+}
