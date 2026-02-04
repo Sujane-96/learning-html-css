@@ -1,0 +1,23 @@
+.demo div{
+    height: 200px;
+    width: 200px;
+
+    border: 2px solid black;
+}
+.demo{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+   /* flex-wrap: wrap;*/
+
+
+}
+.c1{
+    background-color: aqua;
+}
+.c2{
+    background-color: blue;
+}
+.c3{
+    background-color: brown;
+}

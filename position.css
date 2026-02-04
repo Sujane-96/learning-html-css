@@ -1,0 +1,15 @@
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aquamarine;
+}
+.box img{
+    position: relative;
+    left:-50px;
+}
+.box button{
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}

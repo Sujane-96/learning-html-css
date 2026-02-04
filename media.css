@@ -1,0 +1,319 @@
+ 
+.navbar{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+
+}
+.navbar label {
+    display:none;
+}
+#click{
+    display: none;
+}
+#click:checked~.navbar ul{
+    display: block;
+}
+@media screen and (max-width:650px){
+    .navbar label {
+        display: block;
+    }
+    .navbar ul{
+        display: none;
+    }
+} 
+    
+ body{
+    background-color: rgb(233, 183, 75);
+}
+.top{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: green;
+    color: white;
+     border-radius: 20px;
+     margin: 10px;
+     position: sticky;
+     top: 10px;
+    
+}
+.navigation{
+
+    justify-content: space-evenly;
+    display: flex;
+    background-color: rgb(121, 240, 137);
+    align-items: center;
+    margin-top: 10px;
+     border-radius: 20px;
+     margin: 10px;
+     position: sticky;
+     top: 80px;
+}
+.navigation ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    border-radius: 20px;
+      
+}
+.navigation button{
+    background-color: green;
+    color: white;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right:30px ;
+     border-radius: 20px;
+
+}
+.hero1{
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:last baseline;
+    margin: 0px;
+    background-image: url(bg4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+     border-radius: 20px;
+    color: rgb(243, 245, 243);
+    padding: 50px;
+
+    
+}
+.hero1 button{
+    border-radius: 50px;
+    color: white;
+    background-color: green;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right:20px ;
+    cursor: pointer;
+    
+}
+.hero2{
+    display:flex;
+    background-color: green;
+    justify-content: space-evenly;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+    
+}
+.about{
+text-align: center;
+background-color: rgb(72, 219, 109);
+border-radius: 20px;
+padding: 10px;
+margin: px;
+
+}
+.hero3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    background-color: rgb(145, 235, 145);
+    border-radius: 20px;
+    padding: 20px;
+    margin: px;
+    
+}
+.hero3  div img{
+box-shadow: 2px 2px 5px 2px yellowgreen;
+}
+.hero4{
+ display: flex;
+ flex-wrap: wrap;
+
+ justify-content: space-evenly;
+ background-color: rgb(2, 245, 63);
+ border-radius: 20px;
+ margin: 10px;
+ padding: 20px;
+
+}
+.hero4 div {
+
+padding-left: 30px;
+padding-right: 30px;
+padding-bottom: 5px;
+box-shadow: 0px 0px 5px 2px gray;
+
+}
+.service{
+    background-color: rgb(108, 243, 108);
+    text-align: center;
+     padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    
+}
+.service button{
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.service div img{
+    box-shadow: 0px 0px 9px 1px blue;
+}
+.service1{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+}
+.service1 div{
+
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 9px 1px gray;
+}
+
+.choose{
+     text-align: center;
+background-color: rgb(141, 245, 154);
+border-radius: 20px;
+padding: 20px;
+margin: 10px;
+    
+}
+.choose1{
+    display: flex;
+        flex-wrap: wrap;
+
+    justify-content: space-around;
+    padding: 20px;
+   
+}
+.choose1 div{
+     box-shadow: 0px 0px 5px 5px green;
+     padding-bottom: 20px;
+}
+.choose1 img{
+    width: 300px;
+    height: 200px;
+
+}
+.choose1 button{
+    border-radius: 50px;
+   padding: 20px;
+}
+.work{
+     background-color: rgb(133, 243, 133);
+  
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    
+}
+
+.work img{
+    width: 300px;
+}
+.work1
+{
+    display: flex;
+        flex-wrap: wrap;
+
+    justify-content:space-between;
+
+
+}
+.work1 div{
+    box-shadow: 5px 0px 5px 1px green;
+    padding: 50px;
+}
+.work2{
+    display: flex;
+        flex-wrap: wrap;
+
+    justify-content:space-evenly;
+
+}
+.work2 div{
+    box-shadow: 2px 2px 5px 3px green;
+    padding: 20px;
+}
+.work2 img
+{
+    width: 350px;
+    height: 200px;
+}
+.award{
+     background-color: rgb(139, 224, 139);
+    display: flex;
+        flex-wrap: wrap;
+
+  align-items: center;
+    justify-content:space-evenly;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.award div img{
+    box-shadow: 2px 2px 5px 2px green;
+}
+.award div {
+    border: 10px;
+}
+.contact{
+     background-color: rgb(134, 209, 134);
+    display: flex;
+        flex-wrap: wrap;
+
+    align-items:center;
+    justify-content:space-evenly;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+
+}
+.contact div img{
+    box-shadow: 1px 2px 10px 2px rgb(211, 147, 28);
+}
+.contact div form {
+    box-shadow: 2px 2px 5px 5px gray;
+    padding: 20px;
+}
+.footer{
+    background-color: rgb(70, 241, 121);
+    border-radius: 20px;
+}
+.f1{
+    display: flex;
+        flex-wrap: wrap;
+
+    background-color: rgb(3, 116, 3);
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    color: aliceblue;
+}
+.f1 button{
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-top: 10px;
+    border-radius: 50px;
+    font-size: large;
+    color: rgb(3, 1, 15);
+    background-color: rgb(203, 245, 207);
+}
+.f2{
+    display: flex;
+    justify-content: space-evenly;
+}
+   
+    
+ 
